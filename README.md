@@ -4,22 +4,16 @@
 Gunel Aghakishiyeva, Antara Bhide, Anastasiia Saenko, Zhanylai (Janka) Turatkhan kyzy
 
 ## Project Overview
-The project aim to build a conversational AI chatbot with FastAPI. The chatbot uses OpenAI's **GPT-3.5** to generate responses for any questions based on  the **??** book. 
+The project is a conversational AI chatbot built with FastAPI. The chatbot uses OpenAI's **GPT-3.5** to generate responses for any questions based on  the **What Every BODY is Saying** book by Joe Navarro. 
 
 ### Architectural Diagram
 
-We provide a clear architectural diagram representing the flow and components of our application. This diagram aids in understanding the interactions between different services and infrastructure components.
 
-### Prerequisites for the project
-* Python 3.8 or upper
-* FastAPI
-* Uvicorn
-* OpenAI API Key
-* AWS Elastic Beanstalk CLI
 
-### Microservice
-
-Our application is structured as a microservice using FastAPI, which is suitable for building scalable and efficient microservices.
+Project Requirements:
+ 
+1. ** Microservices **: Our application is structured as a microservice using FastAPI, which is suitable for building scalable and efficient microservices.
+2. 
 
 ### Load Test
 
