@@ -27,7 +27,15 @@ Our microservice is designed to handle 10,000 requests per second. To validate i
 
 ### Data Engineering
 
-Our project extensively uses data engineering libraries, including Spark for distributed processing and Pandas for data manipulation. The vector database is utilized for efficient storage and retrieval of document embeddings.
+We used Python Pandas library and SQLite to store interactions with our Chatbot (questions and corresponding responses). We used SQLite to provide an interactive SQL-based way to search the history of requests for our bot in the following format: 
+|   id   |  user_id  |          question          |               response              |
+|--------|-----------|---------------------------|-------------------------------------|
+|   1    |   User1   |   How are you?             |   I'm doing well, thank you!       |
+|   2    |   User2   |   What's the weather like? |   The weather is sunny today.      |
+|   3    |   User1   |   Tell me a joke.          |   Why did the chicken cross...    |
+|   4    |   User2   |   How do I get started?    |   To get started, you can...      |
+|   5    |   User1   |   What's the capital...    |   The capital of France is Paris. |
+|   ...  |   ...     |   ...                     |   ...                               |
 
 ### Infrastructure as Code (IaC)
 
