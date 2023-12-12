@@ -1,17 +1,16 @@
 # IDS-706 / BodySpeakBuddy
 
-# Team Members
+## Team Members
 Gunel Aghakishiyeva, Antara Bhide, Anastasiia Saenko, Zhanylai (Janka) Turatkhan kyzy
 
 ## Project Overview
-The project aim to build a conversational AI chatbot with FastAPI and deployment on AWS. The chatbot uses OpenAI's **GPT-3.5** to generate responses for any questions based on  the **??** book. 
+The project aim to build a conversational AI chatbot with FastAPI. The chatbot uses OpenAI's **GPT-3.5** to generate responses for any questions based on  the **??** book. 
 
 ### Architectural Diagram
 
 We provide a clear architectural diagram representing the flow and components of our application. This diagram aids in understanding the interactions between different services and infrastructure components.
 
-
-## Prerequisites for the project
+### Prerequisites for the project
 * Python 3.8 or upper
 * FastAPI
 * Uvicorn
@@ -21,9 +20,6 @@ We provide a clear architectural diagram representing the flow and components of
 ### Microservice
 
 Our application is structured as a microservice using FastAPI, which is suitable for building scalable and efficient microservices.
-
-
-
 
 ### Load Test
 
@@ -58,12 +54,11 @@ Our repository includes a comprehensive README file that details the project's p
 
 Our GitHub repository includes GitHub Actions for automation and a .devcontainer configuration for GitHub Codespaces. These configurations ensure that the local development environment is consistent and reproducible. Build badges are added for key actions.
 
-## Demo Link
+### Demo Link
 Web link: 
 Demo video link: 
 
-
-## Conclusion
+### Conclusion
 
 Our project successfully meets the requirements outlined for the Data Engineering class. It demonstrates proficiency in microservice development, load testing, data engineering, IaC, CI/CD, documentation, teamwork, quantitative assessment, and presentation through a demo video. The integration of AI Pair Programming tools further enhanced our development process.
 
