@@ -6,6 +6,9 @@ Gunel Aghakishiyeva, Antara Bhide, Anastasiia Saenko, Zhanylai (Janka) Turatkhan
 ## Project Overview
 The project is a conversational AI chatbot built with FastAPI. The chatbot uses OpenAI's **GPT-3.5** to generate responses for any questions based on  the **What Every BODY is Saying** book by Joe Navarro. 
 
+<img width="624" alt="Screenshot 2023-12-12 at 6 58 12 PM" src="https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/assets/78721466/eaca5942-a868-4d1d-b798-64f2949a4e01">
+
+
 ### Architectural Diagram
 
 
@@ -18,14 +21,7 @@ The project is a conversational AI chatbot built with FastAPI. The chatbot uses 
 
 We also used Python Pandas library and SQLite to store interactions with our Chatbot (questions and corresponding responses). We used SQLite to provide an interactive SQL-based way to search the history of requests for our bot in the following format:
 
-|   id   |  user_id  |          question          |               response              |
-|--------|-----------|---------------------------|-------------------------------------|
-|   1    |   User1   |   How are you?             |   I'm doing well, thank you!       |
-|   2    |   User2   |   What's the weather like? |   The weather is sunny today.      |
-|   3    |   User1   |   Tell me a joke.          |   Why did the chicken cross...    |
-|   4    |   User2   |   How do I get started?    |   To get started, you can...      |
-|   5    |   User1   |   What's the capital...    |   The capital of France is Paris. |
-|   ...  |   ...     |   ...                     |   ...                               |
+![Screenshot 2023-12-12 at 6 59 11 PM](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/assets/78721466/19b841d3-212f-44e4-a29b-74964ee18bbb)
 
 5. **Infrastructure as Code (IaC)**: We employed Microsoft Azure Terraform for setting up and managing our infrastructure. 
 6. **Continuous Integration and Continuous Delivery (CI/CD)**: We implemented a CI/CD pipeline using Github Actions. 
