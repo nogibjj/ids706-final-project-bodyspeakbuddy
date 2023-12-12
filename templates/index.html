@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BodySpeakBuddy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+  <div id="widget" onclick="openChat()">Launch BodySpeakBuddy!</div>
+
+  <div id="chat-container">
+    <div id="chat-header">
+      <div class="header-left">
+          <span>BodySpeakBuddy</span>
+      </div>
+      <div class="header-right">
+          <button onclick="minimizeChat()" class="minimize-button"><i class="fa fa-window-minimize"></i></button>
+          <button onclick="closeChat()" class="close-button"><i class="fa fa-window-close"></i></button>
+
+      </div>
+  </div>
+    <ul id="chat-history"></ul>
+    <form id="chat-form">
+      <div style="display: flex; align-items: center;">
+        <textarea id="user-message" placeholder="Type your question here" onkeydown="handleKeyDown(event)"></textarea>
+        <button type="submit" id="send-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/> <!-- Send icon shape -->
+          </svg>
+        </button>
+      </div>
+    </form>
+  </div>
+
+<script src="../static/js/script.js"></script>
+</body>
+</html> 
+
