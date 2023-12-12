@@ -18,6 +18,13 @@ The project aim to build a conversational AI chatbot with FastAPI and deployment
 
 ## Project Structure 
 
+## Prerequisites for the project
+* Python 3.8 or upper
+* FastAPI
+* Uvicorn
+* OpenAI API Key
+* AWS Elastic Beanstalk CLI
+
 ### Microservice
 
 We developed a microservice in Python that interfaces with a data pipeline. The microservice is responsible for processing PDF documents using OpenAI's latest embedding model, converting them into a vector database. The microservice includes logging and is containerized using the Distroless Docker image. The repository contains a Dockerfile for easy deployment. The microservice, developed with FastAPI, a leading Python web framework for APIs, emphasizes high performance and user-friendly design. It efficiently manages concurrent API calls for quick responses. Thorough logging enhances transparency, and containerization with Distroless Docker ensures portability and consistency. This approach aligns with modern microservices best practices, providing both efficiency and maintainability.
