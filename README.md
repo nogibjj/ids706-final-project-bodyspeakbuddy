@@ -1,1 +1,1 @@
-# ids706-final-project-bodyspeakbuddy
+# IDS-706 / BodySpeakBuddy
