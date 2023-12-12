@@ -10,7 +10,7 @@ The project is a conversational AI chatbot built with FastAPI. The chatbot uses 
 
 
 
-Project Requirements:
+## Project Requirements:
  
 1. **Microservices**: Our application is structured as a microservice using FastAPI, which is suitable for building scalable and efficient microservices.
 2. 
