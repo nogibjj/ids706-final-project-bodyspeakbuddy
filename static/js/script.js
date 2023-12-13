@@ -121,7 +121,7 @@ async function sendMessage() {
 
   try {
      // const response = await fetch("http://aiavatar.us-east-2.elasticbeanstalk.com/ask/", {
-      const response = await fetch("http://192.168.1.138:8080/ask/", {
+      const response = await fetch("http://0.0.0.0:8080/ask/", {
       
       method: "POST",
       headers: {
