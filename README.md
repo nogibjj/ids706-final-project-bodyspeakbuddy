@@ -12,7 +12,6 @@ The project is a conversational AI chatbot built with FastAPI. The chatbot uses 
 ### Architectural Diagram
 
 
-
 ## Project Requirements
  
 1. **Microservices**: Our application is structured as a microservice using FastAPI, which is suitable for building scalable and efficient microservices. Logging is made using uvicorn and the project is containerized using the Distroless Docker image.
@@ -32,11 +31,45 @@ We also used Python Pandas library and SQLite to store interactions with our Cha
 11. **Quantitative Assessment**: We have conducted and included a comprehensive quantative quality assesment. 
 12. **Demo Video**: Demo Video Link is provided in the repo.
 
-### Demo Link
+## Reusability
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd ids706-final-project-bodyspeakbuddy
+```
+
+3. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Create a `.env` file and add your OpenAI API key:
+
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+5. Run the FastAPI application:
+
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8080
+```
+
+6. Open your browser and navigate to `http://localhost:8080`.
+
+## Demo Link
 Web link: 
 Demo video link: 
 
-### Conclusion
+## Conclusion
 
 Our project successfully meets the requirements outlined for the Data Engineering class. It demonstrates proficiency in microservice development, load testing, data engineering, IaC, CI/CD, documentation, teamwork, quantitative assessment, and presentation through a demo video. The integration of AI Pair Programming tools further enhanced our development process.
 
