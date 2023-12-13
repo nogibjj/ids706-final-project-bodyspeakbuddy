@@ -12,8 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code
 COPY . .
 
-# Stage 2: Final Stage using Python slim image
-FROM python:3.8-slim
+# Stage 2: Final Stage using Distroless Python image
+FROM gcr.io/distroless/python3
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -24,8 +24,5 @@ COPY --from=build-stage /usr/local/lib/python3.8/site-packages /usr/local/lib/py
 # Copy the application code from the build stage
 COPY --from=build-stage /app /app
 
-# No need to expose port since it's only metadata, but it's good documentation
-EXPOSE 8080
-
 # Set the command to run your application
-CMD ["python", "app.py"]
+CMD ["app.py"]
