@@ -11,3 +11,13 @@ jinja2
 python-multipart
 sqlalchemy
 pandas
+# pylint
+pylint
+# test
+pytest
+pytest-cov
+nbval
+# formatter
+black
+# rust based linter
+ruff
