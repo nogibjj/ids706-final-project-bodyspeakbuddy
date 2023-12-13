@@ -4,7 +4,7 @@
 Gunel Aghakishiyeva, Antara Bhide, Anastasiia Saenko, Zhanylai (Janka) Turatkhan kyzy
 
 ## Demo Link
-![Demo video link](https://youtu.be/EZbIvcnRYkY) 
+[Demo video link](https://youtu.be/EZbIvcnRYkY) 
 
 ## Project Overview
 The project is a conversational AI chatbot built with FastAPI. The chatbot uses OpenAI's **GPT-3.5** to generate responses for any questions based on  the **What Every BODY is Saying** book by Joe Navarro. 
