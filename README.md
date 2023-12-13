@@ -15,7 +15,7 @@ The project is a conversational AI chatbot built with FastAPI. The chatbot uses 
 
 ## Project Requirements
  
-1. **Microservices**: Our application is structured as a microservice using FastAPI, which is suitable for building scalable and efficient microservices.
+1. **Microservices**: Our application is structured as a microservice using FastAPI, which is suitable for building scalable and efficient microservices. Logging is made using uvicorn and the project is containerized using the Distroless Docker image.
 2. **Load Test**: In our FastAPI-based application, load testing with Locust revealed an average throughput of 3000 requests per second, below our 10,000 RPS target. This shortfall is influenced by factors such as suboptimal asynchronous handling, resource-intensive PDF processing with PyPDF2, and external API calls.
 3. **Data Engineering**: The code achieves data engineering through text extraction, segmentation, vectorization, and SQLite database management.
 
