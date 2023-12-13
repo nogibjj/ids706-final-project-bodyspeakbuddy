@@ -1,6 +1,5 @@
 # IDS-706 / BodySpeakBuddy
-[![Install](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml) [![Install](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml)
-[![Install](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml)
+[![Install](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml) [![format](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/format.yml)
 ## Team Members
 Gunel Aghakishiyeva, Antara Bhide, Anastasiia Saenko, Zhanylai (Janka) Turatkhan kyzy
 
