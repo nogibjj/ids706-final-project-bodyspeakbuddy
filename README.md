@@ -3,6 +3,9 @@
 ## Team Members
 Gunel Aghakishiyeva, Antara Bhide, Anastasiia Saenko, Zhanylai (Janka) Turatkhan kyzy
 
+## Demo Link
+![Demo video link](https://youtu.be/EZbIvcnRYkY) 
+
 ## Project Overview
 The project is a conversational AI chatbot built with FastAPI. The chatbot uses OpenAI's **GPT-3.5** to generate responses for any questions based on  the **What Every BODY is Saying** book by Joe Navarro. 
 
@@ -66,9 +69,7 @@ uvicorn app:app --host 0.0.0.0 --port 8080
 
 6. Open your browser and navigate to `http://localhost:8080`.
 
-## Demo Link
-Web link: 
-Demo video link: 
+
 
 ## Conclusion
 
