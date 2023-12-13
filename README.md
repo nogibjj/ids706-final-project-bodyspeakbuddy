@@ -11,7 +11,7 @@ The project is a conversational AI chatbot built with FastAPI. The chatbot uses 
 
 
 ### Architectural Diagram
-
+![Architecture](./pic/Architect.png)
 
 ## Project Requirements
  
