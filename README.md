@@ -1,5 +1,5 @@
 # IDS-706 / BodySpeakBuddy
-[![Docker](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/docker-publish.yml)
+[![Install](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ids706-final-project-bodyspeakbuddy/actions/workflows/install.yml)
 
 ## Team Members
 Gunel Aghakishiyeva, Antara Bhide, Anastasiia Saenko, Zhanylai (Janka) Turatkhan kyzy
