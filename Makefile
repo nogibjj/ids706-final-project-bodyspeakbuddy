@@ -1,29 +1,18 @@
-#install:
-#	pip install --upgrade pip &&\
-#		pip install -r requirements.txt
-#
-name: Python CI
+install:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+test:
+	python -m pytest -vv  test_*.py
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: Install build dependencies
-      run: sudo apt-get install -y build-essential gcc
-    - name: Install packages
-      run: make install
-    - name: Format
-      run: make format
-    - name: Lint
-      run: make lint
-    - name: Test
-      run: make test
-	
+format:
+	black *.py
+
+lint:
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+
+all: install lint format test
+
+docker:
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+
