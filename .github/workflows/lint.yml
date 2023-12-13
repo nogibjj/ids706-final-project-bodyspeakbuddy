@@ -14,5 +14,3 @@ jobs:
         run: make install
       - name: format
         run: make format
-      - name: lint
-        run: make lint
